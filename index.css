@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(175, 129, 72);
+    background-image: url(mushroom-161634_1280.png);
+    background-position: 50vw;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+
+.formularios img{
+    margin: auto;
+    height: 60%;
+}
+
+.formularios{
+    display: flex;
+    height:97vh;
+    
+}
+
+#conta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+#user{
+    display: flex;
+    justify-content: space-around;
+    margin: 10%;
+}
+
+.elementosForm {
+    background-color: rgb(172, 96, 9);
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    color: rgb(255, 255, 212);
+    border: solid rgb(255, 255, 212);
+    border-radius: 10px;
+}
+
+#voltar {
+    background: rgb(218, 162, 93);
+    color: rgb(255, 255, 212);
+    border-style: outset;
+    border-color: transparent;
+    flex-wrap: wrap;
+    margin-left: 80%;
+}
+
+#avancar {
+    background: rgb(218, 162, 93);
+    color: rgb(255, 255, 212);
+    border-style: outset;
+    border-color: transparent;
+    flex-wrap: wrap;
+    margin-left: 40%;
+}
+
+.botao{
+    display: flex;
+    align-items: flex-end;
+    height: 90vh;
+}

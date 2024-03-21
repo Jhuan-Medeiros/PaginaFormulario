@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Cadastro</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="index.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous">
+        </script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="formularios">
+        <form id="conta" method="get">
+            <div id="user">
+                <div class="elementosForm">
+                    <h1>Conta</h1> <br>
+                    <label> Nome:<br>
+                        <input type="text" name="nome" id="nome">
+                    </label>
+                    <label> Email:<br>
+                        <input type="text" name="email" id="email">
+                    </label>
+                    <label> Senha:<br>
+                        <input type="text" name="senha" id="senha">
+                    </label>
+                    <label> Confirme sua senha: <br>
+                        <input type="text" name="confirmaSenha" id="confirmaSenha">
+                    </label> <br>
+                </div>
+            </div>
+            <!--    <div id="endereco"> -->
+            <div class="elementosForm">
+                <h1>Endereço</h1> <br>
+                <label> Cep:<br>
+                    <input type="text" name="cep" id="cep" value="" maxlength="9">
+                </label>
+                <label> Rua: <br>
+                    <input type="text" name="rua" id="rua">
+                </label>
+                <label> Cidade: <br>
+                    <input type="text" name="cidade" id="cidade">
+                </label>
+                <label> Estado: <br>
+                    <input type="text" name="estado" id="estado">
+                </label>
+                <label> N°: <br>
+                    <input type="text" name="numero" id="numero">
+                </label> <br>
+            </div>
+            <div class="botao">
+                <button type="reset" id="voltar">Voltar</button>
+                <button type="reset" id="avancar">Avançar</button>
+            </div>
+            <!-- </div> -->
+        </form>
+        <!--         <img src="mushroom-161634_1280.png" alt="cogumelo">
+ -->
+    </div>
+
+</body>
+
+</html>
